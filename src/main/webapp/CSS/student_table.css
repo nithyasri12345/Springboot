@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: whitesmoke;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+    color: darkblue;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid gray;
+    text-align: left;
+}
+
+th {
+    background-color: lightsteelblue;
+    color: black;
+}
+
+tr:nth-child(even) {
+    background-color: lightgray;
+}
+.logstyle{
+	 text-align:right;
+	 margin-bottom: 15px;
+	
+	 
+       
+}
+.logout-btn{
+	color: white;
+    background-color: #dc3545; 
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+   
+}
+.home-btn{
+	
+    color: white;
+    background-color: rgb(0, 128, 255);
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 10px; 
+}
+	
+
+
+	.update-btn {
+    padding: 10px 15px;
+    text-decoration: none;
+    color: white;
+    border-radius: 8px;
+    font-size: 18px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    display: inline-block;
+    margin: 5px;
+    cursor: pointer;
+    background-color: #007bff;
+}
+.del-btn{
+	background-color:red;
+	padding: 10px 15px;
+    text-decoration: none;
+    color: white;
+    border-radius: 8px;
+    font-size: 18px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    display: inline-block;
+    margin: 5px;
+    cursor: pointer;
+	
+}
+
