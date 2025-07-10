@@ -4,7 +4,7 @@ on: [push]
 
 jobs:
   hello-job:
-    runs-on: windows-laest
+    runs-on: windows-latest
     steps:
       - name: Say Hello
         run: echo "Hello from GitHub Actions"
